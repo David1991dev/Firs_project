@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { Animated, View, StyleSheet, PanResponder, Text } from "react-native";
 
+
 const App = () => {
   const pan = useRef(new Animated.ValueXY()).current;
   const panResponder = useRef(
@@ -30,6 +31,7 @@ const App = () => {
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
